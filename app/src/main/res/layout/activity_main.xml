@@ -6,7 +6,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.company.game.MainActivity">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -58,7 +58,7 @@
         android:id="@+id/main"
         android:orientation="vertical">
 
-        <com.jacob.game.UtilsAwv
+        <com.company.game.UtilsAwv
             android:id="@+id/myWebView"
             android:layout_width="match_parent"
             android:layout_height="0dp"

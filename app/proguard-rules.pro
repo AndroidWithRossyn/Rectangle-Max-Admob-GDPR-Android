@@ -22,3 +22,4 @@
 
 -keep class com.huawei.openalliance.ad.** { *; }
 -keep class com.huawei.hms.ads.** { *; }
+-keepnames class com.google.android.play.core.review.ReviewInfo
